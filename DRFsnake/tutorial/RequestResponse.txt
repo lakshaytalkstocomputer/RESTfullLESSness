@@ -1,0 +1,18 @@
+In REST framework,
+
+Request Object
+---------------------------------------------------------------------------
+-- 'Request' object extends the regular Http Request
+-- and provide more flexible request parsing.
+---- COre functionality is request.data which is similar to request.POST
+---- but more usefull for working with Web api's
+
+request.POST  => Onlu hnadles foprm data, Only wokrs for 'POST'
+request.dat   => Handles arbitary data. Works fro 'POST', 'PUT' and 'PATCH' methods.
+
+Response Object
+---------------------------------------------------------------------------
+REST framework also introduces a Response object,
+-- It is type of Template Response that takes unredred content and uses content negotiation to the dtermine the correct conetnt type.
+--
+
